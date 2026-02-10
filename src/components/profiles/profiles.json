@@ -1,0 +1,41 @@
+{
+  "default": {
+    "id": "default",
+    "firstName": "Default",
+    "lastName": "",
+    "title": "Guest",
+    "email": "default@schooldays.com",
+
+    "dob": "date of birth",
+    "homePhone": "homePhone",
+    "cellPhone": "cellPhone",
+    "homeAddress": "Address",
+    "emergencyContactName": "emergencyContactName",
+    "emergencyContactNumber": "emergencyContactNumber",
+    "personalEmail": "personalEmail",
+    "hourlyRate": 0.01,
+    "warehouseTraining": true,
+    "ladderTraining": true,
+    "knifeSafetyTraining": true
+  },
+
+  "john": {
+    "id": "john",
+    "firstName": "John",
+    "lastName": "Worker",
+    "title": "Guest User",
+    "email": "john@schooldays.com",
+
+    "dob": "1/11/1990",
+    "homePhone": "123-456-7890",
+    "cellPhone": "098-765-4321",
+    "homeAddress": "123 Fake Street, City City, CA 90000",
+    "emergencyContactName": "Mary Worker",
+    "emergencyContactNumber": "098-098-4321",
+    "personalEmail": "JWorker@email.com",
+    "hourlyRate": 20.15,
+    "warehouseTraining": true,
+    "ladderTraining": true,
+    "knifeSafetyTraining": false
+  }
+}

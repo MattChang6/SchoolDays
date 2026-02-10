@@ -1,0 +1,117 @@
+
+.lato-font {
+    font-family: 'Lato', sans-serif;
+}
+
+.roboto-mono-font {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: #e1edf7;
+}
+
+.background-container {
+    background-color: #e1edf7;
+    overflow-x: clip;
+}
+
+.threeColumn{
+    grid-template-columns: 3fr;
+    width: 100%;
+}
+
+
+
+/* Mobile-Friendly Styles */
+@media (max-width: 768px) {
+
+    .grid-b1, .grid-b2, .grid-b5 {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .grid-b4 {
+        grid-template-columns: 1fr;
+        gap: 0rem;
+        padding: 0% 2% 0% 2%;
+    }
+
+    .beyond-balance-sheets{
+        padding-top: 2%;
+    }
+
+    .beyond-balance-sheets, .about-title, .business-accounting, .service-description, .our-services, .expert-accounting {
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    .desk-img, .business-img-b2, .service-logo {
+        width: 100%;
+    }
+
+    .item1-b1, .item1-b2, .item2-b4 {
+        padding: 10px;
+    }
+
+    .learn-more-btn {
+        width: 80%;
+    }
+
+    .service-logo {
+        width: 40%;
+    }
+
+    .about-title {
+        padding-left: 0%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .business-accounting{
+        padding-left: 0%;
+    }
+
+    .service-description {
+        padding: 0 4%;
+    }
+}
+
+@media (max-width: 425px) {
+    .beyond-balance-sheets, .about-title, .our-services, .expert-accounting {
+        font-size: 1.5rem;
+    }
+
+    .service-description {
+        font-size: 1rem;
+    }
+
+    .learn-more-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .our-services {
+        padding-top: 5%;
+    }
+
+    .service-logo {
+        width: 50%;
+    }
+
+    .learn-more-btn {
+        margin-top: 2%;
+    }
+
+    .about-title {
+        padding-left: 0%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .business-accounting{
+        padding-left: 0%;
+    }
+}
